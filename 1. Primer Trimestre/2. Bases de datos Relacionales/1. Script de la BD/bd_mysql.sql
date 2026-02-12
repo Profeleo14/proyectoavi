@@ -10,7 +10,7 @@ nom_us varchar(45) not null,
 ape_us varchar(45) not null,
 dir_us varchar(45) not null,
 tel_us bigint null,
-estado_us boolean not null,
+estado_us tinyint not null,
 pregunta_seg int not null,
 resp_preg varchar(50) not null,
 primary key (id_us, pregunta_seg)
